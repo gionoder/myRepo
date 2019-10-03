@@ -1,2 +1,2 @@
-While doing a Customer payment journal, where the payment date grants cash discounts, if the date of payment in the payment journal is changed to another date where the discounts are not applicable anymore, the payment journal keeps calculating cash discounts.
+While doing a Customer payment journal under a legal entity configured for Brazil, where the payment date grants cash discounts, if the date of payment in the payment journal is changed to another date where the discounts are not applicable anymore, the payment journal keeps calculating cash discounts.
 This alteration fixes the alghoritm for calculation of cash discounts to grant cash discounts within the proper range of the dates, according to the setup of Payment methods.
